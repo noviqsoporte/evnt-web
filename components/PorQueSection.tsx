@@ -56,7 +56,7 @@ export default function PorQueSection() {
           </h2>
           
           <p className="font-sans text-text-secondary text-lg leading-relaxed max-w-[680px] mx-auto">
-            En México, miles de empresas medianas organizan eventos internos sin ninguna herramienta pensada para ellas. Nadie había resuelto el segmento de 10 a 30 personas en zonas industriales y ciudades medianas. Eso es exactamente lo que hacemos.
+            En México, miles de empresas medianas organizan eventos internos sin ninguna herramienta pensada para ellas. Nadie había resuelto este segmento en zonas industriales y ciudades medianas. Eso es exactamente lo que hacemos.
           </p>
         </div>
 
@@ -81,7 +81,7 @@ export default function PorQueSection() {
             </div>
             <h3 className="text-text-primary font-bold text-xl mb-3">Gratis para la empresa</h3>
             <p className="text-text-secondary leading-relaxed">
-              La comisión la paga el restaurante. La empresa no desembolsa nada por usar el servicio.
+              Sin costos, sin sorpresas. Para tu empresa el servicio es completamente gratuito.
             </p>
           </div>
 

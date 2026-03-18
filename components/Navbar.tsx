@@ -43,7 +43,27 @@ export default function Navbar() {
             </Link>
           </div>
 
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex items-center space-x-8">
+            <button
+              onClick={() => scrollToSection('restaurantes-cta')}
+              className="font-sans text-text-secondary transition-all duration-200"
+              style={{
+                fontSize: '14px',
+                border: '1px solid #1A1A1A',
+                borderRadius: '4px',
+                padding: '6px 14px',
+              }}
+              onMouseEnter={(e) => {
+                (e.currentTarget as HTMLElement).style.borderColor = 'var(--color-accent)';
+                (e.currentTarget as HTMLElement).style.color = 'var(--color-accent)';
+              }}
+              onMouseLeave={(e) => {
+                (e.currentTarget as HTMLElement).style.borderColor = '#1A1A1A';
+                (e.currentTarget as HTMLElement).style.color = 'var(--color-text-secondary)';
+              }}
+            >
+              ¿Eres restaurante?
+            </button>
             <button
               onClick={() => scrollToSection('como-funciona')}
               className="text-text-secondary hover:text-text-primary transition-colors text-sm font-medium"
@@ -74,6 +94,12 @@ export default function Navbar() {
       {mobileMenuOpen && (
         <div className="md:hidden bg-surface border-b border-border absolute w-full left-0">
           <div className="px-4 pt-2 pb-4 space-y-1 sm:px-3 flex flex-col items-center">
+            <button
+              onClick={() => scrollToSection('restaurantes-cta')}
+              className="block px-3 py-4 text-text-secondary hover:text-accent font-medium w-full border-b border-border transition-colors"
+            >
+              ¿Eres restaurante?
+            </button>
             <button
               onClick={() => scrollToSection('como-funciona')}
               className="block px-3 py-4 text-text-secondary hover:text-text-primary font-medium w-full border-b border-border transition-colors"

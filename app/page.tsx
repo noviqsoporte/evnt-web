@@ -5,6 +5,7 @@ import PorQueSection from '@/components/PorQueSection';
 import MetodoSection from '@/components/MetodoSection';
 import RestaurantesSection from '@/components/RestaurantesSection';
 import CTAFinalSection from '@/components/CTAFinalSection';
+import RestaurantesCTASection from '@/components/RestaurantesCTASection';
 import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import { getConfiguracion, getRestaurantes } from '@/lib/airtable';
@@ -26,6 +27,7 @@ export default async function Home() {
         <MetodoSection config={config} />
         <RestaurantesSection restaurantes={restaurantes} />
         <CTAFinalSection config={config} />
+        <RestaurantesCTASection whatsapp={config?.whatsapp || ''} />
       </main>
 
       <Footer config={config} />

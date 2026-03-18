@@ -80,7 +80,7 @@ export default function CTAFinalSection({ config }: CTAFinalSectionProps) {
             transitionTimingFunction: curve,
           }}
         >
-          Cuéntanos cuántas personas, qué fecha tienes en mente y tu presupuesto aproximado. En menos de 24 horas tienes opciones concretas.
+          Cuéntanos cuántas personas, qué fecha tienes en mente y tu presupuesto aproximado. En menos de 5 minutos tienes opciones concretas para tomar la decisión.
         </p>
 
         {/* CTA Button */}
@@ -107,7 +107,7 @@ export default function CTAFinalSection({ config }: CTAFinalSectionProps) {
             (e.currentTarget as HTMLElement).style.transform = 'scale(1)';
           }}
         >
-          Escribirnos por WhatsApp <span className="ml-2">→</span>
+          Escríbenos por WhatsApp <span className="ml-2">→</span>
         </a>
 
         {/* Muted note */}

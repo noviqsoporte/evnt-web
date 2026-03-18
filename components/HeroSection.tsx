@@ -152,7 +152,7 @@ export default function HeroSection({ config }: HeroSectionProps) {
               transitionTimingFunction: 'cubic-bezier(0.16, 1, 0.3, 1)',
             }}
           >
-            Conectamos empresas con restaurantes para eventos corporativos de 10 a 30 personas. Sin llamadas, sin cotizaciones, sin perder tiempo.
+            La plataforma de eventos corporativos para PyMes. Sin llamadas. Sin cotizaciones. Sin perder tiempo.
           </p>
 
           {/* CTA Button */}
@@ -181,7 +181,7 @@ export default function HeroSection({ config }: HeroSectionProps) {
               (e.currentTarget as HTMLElement).style.transform = 'scale(1)';
             }}
           >
-            Organizar mi próximo evento <span className="ml-2">→</span>
+            Escríbenos ahora <span className="ml-2">→</span>
           </a>
         </div>
       </section>

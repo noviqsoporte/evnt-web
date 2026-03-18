@@ -48,7 +48,7 @@ export default function MetodoSection({ config }: MetodoSectionProps) {
     {
       number: '03',
       title: 'Te presentamos las opciones',
-      description: 'En menos de 24 horas tienes 2 o 3 opciones concretas con precios, capacidad y disponibilidad confirmada.'
+      description: 'En menos de 5 minutos tienes opciones concretas con precios, capacidad y disponibilidad confirmada. Tú decides.'
     },
     {
       number: '04',
@@ -148,7 +148,7 @@ export default function MetodoSection({ config }: MetodoSectionProps) {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center bg-accent hover:bg-accent-hover text-black font-semibold rounded-md px-8 py-4 transition-colors duration-300 whitespace-nowrap"
             >
-              Escribirnos ahora <span className="ml-2">→</span>
+              Escríbenos ahora <span className="ml-2">→</span>
             </a>
           </div>
         </div>
