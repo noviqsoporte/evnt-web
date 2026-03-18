@@ -152,9 +152,9 @@ export default function RestaurantesCTASection({ whatsapp }: RestaurantesCTASect
       description: 'Creamos tu página de catálogo dentro de la plataforma EVNT, optimizada para empresas que buscan espacios.',
     },
     {
-      number: '12%',
+      number: '5–12%',
       title: 'Comisión por evento',
-      description: 'Pagada únicamente después de que el evento se realiza. Sin riesgos.',
+      description: 'El porcentaje varía según el tamaño del evento. Solo se cobra después de que el evento se realiza. Sin riesgos.',
     },
     {
       number: '1 mes',
